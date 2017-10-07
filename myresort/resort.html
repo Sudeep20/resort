@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Resort</title>
+</head>
+<body bgcolor='#1C2833' class="page-front">
+	<table>
+		<td>
+<th rowspan='4' colspan='4'><img src='logo.png'>
+</th>
+<th style="width:100%"><font face='Chiller' size='8' color='pink'><h2><b>See what difference a stay makes</b></h2></face></th>
+		</td>
+  </table>
+	<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: 'cornsilk';
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: cornsilk;
+    text-align: center;
+    padding: 25px 55px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #1C2833;
+    text-decoration: underline;
+
+
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-decoration: underline;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: cornsilk}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.button {
+    background-color: #0D8B37;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: center;
+
+}
+
+.button:hover {
+    background-color: #3e8e41;
+}
+</style>
+<hr width='95%'>
+<ul>
+  <li><a href="#">Overview</a></li>
+  <li><a href="#news">Offers</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Accomodations</a>
+    <div class="dropdown-content">
+      <a href="#">Orchid Rooms</a>
+      <a href="#">Luxury Rooms</a>
+      <a href="#">Luxury Ocean Rooms</a>
+      <a href="#">Honeymoon Sweet</a>
+       <a href="#">Penthouse</a>
+        <a href="#">Villa</a>
+      <li class="dropdown">
+    <a href="#" class="dropbtn">Spa and Wellness</a>
+    <div class="dropdown-content">
+      <a href="#">The Spa</a>
+      <a href="#">Fitness Centre</a>
+       <li class="dropdown">
+    <a href="#" class="dropbtn">Dinning</a>
+    <div class="dropdown-content">
+      <a href="#">The Restaurants</a>
+      <a href="#">The Bars</a>
+      <a href="#">Room Service</a>
+      <a href="#">The Spa Cafe</a>
+       <li class="dropdown">
+    <a href="#" class="dropbtn">Occasions</a>
+    <div class="dropdown-content">
+      <a href="#">Weddings</a>
+      <a href="#">Honey moon</a>
+      <a href="#">Meetings and Events</a>
+      <a href="#">Private Party</a>
+      <li><a href="#contactus">Reservation</a></li>
+    </div>
+  </li>
+</ul>
+<hr width='95%'>
+<div class="slideshow" style="max-width: 100% !important">
+ <center><img class="mySlides" src="overview.jpg" class="img-responsive" alt="overview" width="70%" height="50%"></center>
+ <center><img class="mySlides" src="bedroom.jpg" class="img-responsive" alt="bedroom" width="70%" height="50%"></center>
+ <center><img class="mySlides" src="spa.jpg" class="img-responsive" alt="spa" width="70%" height="50%"></center>
+  <center><img class="mySlides" src="bars.jpg" class="img-responsive" alt="bar" width="70%" height="50%"></center>
+</div>
+<br>
+<br>
+<form name='bookings' method='get'>
+<table bgcolor='grey' align='center'>
+<tr>
+  <td>Hotel,Destination</td>
+   <td><select name="Branch">
+    <option value="Ktm">Kathmandu</option>
+    <option value="Pok">Pokhara</option>
+    <option value="Nepalgunj">Nepalgunj</option>
+    <option value="Dharan">Dharan</option>
+  </select>
+ <td valign="top">
+  <label for="checkin">Check IN*</label>
+ </td>
+ <td valign="top">
+  <input type="date" name="checkin" max="2040-12-31">
+ </td>
+ <td valign="top">
+  <label for="check_out">Check Out</label>
+ </td>
+ <td valign="top">
+ <input type="date" name="checkout" max="2040-12-31">
+ </td>
+ <td valign="top">
+  <label for="room">Rooms*</label>
+ </td>
+ <td valign="top">
+  <input  type="number" name="quantity" min='1' required='required' size="10">
+ </td>
+ <td style="text-align:center">
+  <input type="submit" value="Submit">
+ </td>
+</tr>
+</table></form><br><br><hr width='80%'>
+<h2><center><font face='Bernard MT Condensed' size='8' color='#BEA0C6'>&#9755;Durbar Hotels and Resorts&#9754;</font></center></h2>
+<p align='center'><center><h6><font face='Arial' size='2' color='white'>Rooted in history and tradition that deliver truly unforgettable experience, each Durbar hotel, resort and palace reflects the tradition of hospitality to create lifelong memories.</h6></center></font></p>
+<br><br><hr width='80%'>
+<h2><center><font face='Bernard MT Condensed' size='8' color='#BEA0C6'>&#9733; &#9733; &#9733;Now at Durbar &#9733; &#9733; &#9733;</font></center></h2>
+<div class="container">           
+  <img src="valentines.jpg" class="img-thumbnail" alt="Cinque Terre" width="404" height="275" hspace="175"> 
+  <img src="hyatt.jpg" class="img-thumbnail" alt="Cinque Terre" width="404" height="275">
+  <p><font color='#F7323E'><center>Valentine's Day &#9829; Special Offer.Book the limited Valentine's suite this valentine and make your valentine's day more special with our offers.Live in a floating palace, tour in vintage cars, feast in terraced Gardens. Come closer every moment this summer with Durbar Holidays.For further details click on the Read more button down below.</center></font></p>
+  <center><button class="button">Read more</center></button></p>
+</div>
+<br>
+<br>
+<br>
+<hr>
+<ul>
+  <li><a href="#">About Us</a></li>
+  <li><a href="#">Our Blog</a></li>
+  <li><a href="#">Contact Us</a></li>
+   <li><a href="#">Site Map</a></li>
+   <li><a href="#">Terms of Use</a></li>
+   <li><a href="#">Privacy Policy</a></li>
+   <li><a href="#">Need Help</a></li>
+</ul>
+<table align='center'>
+  <tr>
+    <td><a href="#"><img src='facebook.png' width='50' height='50' hspace='10'></a></td>
+        <td><a href="#"><img src='twitter.png' width='50' height='50' hspace='10'></a></td>
+            <td><a href="#"><img src='instagram.png' width='50' height='50' hspace='10'></a></td>
+                <td><a href="#"><img src='youtube.png' width='50' height='50' hspace='10'></a></td>
+                    <td><a href="#"><img src='pinterest.png' width='50' height='50' hspace='10'></a></td>
+                    <td><a href="#"><img src='google.png' width='50' height='50' hspace='10'></a></td>
+                    <hr width=50%>
+              </tr>
+            </table>
+            <p><center><h2><font color='darksalmon'>Durbar Resort</font></h2></center></p>
+            <p><center><h2><font color='darksalmon'>Jhamsikhel,Kathmandu</font></h2></center></p>
+            <p><center><h2><font color='darksalmon'>Tel-01: +977-1-5122098</font></h2></center></p>
+            <p><center><h2><font color='darksalmon'>Copyright   &#169; 2017 Durbar - All rights reserved.</font></h2></center></p>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); 
+}
+</script>
+</body>
+</html>
